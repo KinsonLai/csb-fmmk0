@@ -1,0 +1,31 @@
+p.output-num {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container .app-ui {
+    position: relative;
+    bottom: -50px;
+    padding: 30px;
+    background-color: lightblue;
+}
+
+.container > .app-ui > .range-input-boxes {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container > .app-ui > .range-input-boxes .box {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container > .app-ui > .b-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container > .app-ui > .b-container > #b {
+    margin: 50px;
+}

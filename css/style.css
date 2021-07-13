@@ -1,0 +1,132 @@
+#c1.container {
+    background-color: #202463;
+}
+
+#c2.container {
+    background-color: #070a40;
+}
+
+#c1.container > .title {
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: -50px;
+}
+
+.b1 {
+    position: relative;
+    bottom: -250px;
+    display: flex;
+    justify-content: center;
+}
+
+.b1 a {
+    display: inline-block;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Cinzel', serif;
+}
+
+.b1 a:hover {
+    background-color: lightslategray;
+}
+
+#c2.container > .title {
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: -50px;
+}
+
+#c2.container > p {
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: -5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item {
+    position: relative;
+    overflow: auto;
+    min-height: 600px;
+    min-width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+
+.item:hover {
+    background-color: lightgray;
+    transition-duration: 0.2s;
+}
+
+.item > .title {
+    text-align: center;
+}
+
+.item p {
+    text-align: center;
+}
+
+#c3.container > .title {
+    text-align: center;
+    display: block;
+    padding: 100px;
+}
+
+#c3.container {
+    overflow: auto;
+}
+
+.b1 a {
+    font-size: 20px;
+}
+
+.item-title {
+    font-size: 50px;
+}
+
+.frame-container {
+    display: flex;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .b1 a {
+        font-size: 50px;
+        width: 300px;
+    }
+
+    #c2.container p:not(.title) {
+        font-size: 50px;
+    }
+
+    .item .item-title {
+        font-size: 50px;
+    }
+
+    .item p:not(.item-title) {
+        font-size: 30px;
+    }
+
+    .subtitle {
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #1f1f21;
+    margin: 0;
+    padding: 14px 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header > h3 {
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.container {
+    margin: 0;
+    padding: 3px;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+.footer {
+    background-color: #3b3b47;
+    color: white;
+    margin: 0;
+    padding: 3px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+  
+.nav li {
+    display: inline-block;
+    text-align: center;
+    
+}
+  
+.nav li a:hover {
+    background-color: #353638;
+    color: black;
+}
+
+.nav li a {
+    color: #ffffff;
+    padding: 12px 20px;
+    font-size: 17px;
+}
+
+.footer {
+    background-color: #2e2e30;
+}
+
+.this-page-nav {
+    background-color: lightslategray;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .brand {
+        font-size: 60px;       
+    }
+
+    .nav li a {
+        font-size: 50px;
+    }
+
+    .title {
+        font-size: 80px;
+    }
+
+    .footer {
+        font-size: 30px;
+    }
+}

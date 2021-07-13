@@ -1,0 +1,65 @@
+.container {
+    background-color: white;
+}
+
+.container > .title {
+    text-align: center;
+    padding: 10px;
+}
+
+.content {
+    display: grid;
+}
+
+.item {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+
+.item p {
+    display: inline;
+    float: left;
+}
+
+.item a {
+    display: inline;
+    float: right;
+    background-color: #347aeb;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+@media only screen and (min-device-width: 769px) {
+    .item a {
+        font-size: 30px;
+    }
+
+    .item p {
+        font-size: 30px;
+    }
+    
+    .container > .title {
+        font-size: 50px;
+    }
+    
+    .container {
+        display: block;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    .container > .title {
+        font-size: 50px;
+    }
+
+    .item p {
+        font-size: 30px;
+    }
+
+    .item a {
+        font-size: 20px;
+    }
+}
